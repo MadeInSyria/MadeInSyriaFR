@@ -6,6 +6,8 @@ gem 'rails', '4.0.2'
 
 group :development, :test do
   gem 'rspec-rails', '2.13.1'
+  gem 'guard-rspec', '2.5.0'
+  gem 'spork-rails', '4.0.0'
 end
 
 group :test do
@@ -13,7 +15,7 @@ group :test do
   gem 'capybara', '2.1.0'
 end
 
-gem 'mysql', '2.9.1'
+gem 'mysql2', '0.3.14'
 gem 'sass-rails', '4.0.1'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
