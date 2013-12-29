@@ -1,0 +1,254 @@
+# Logfile created on 2013-12-29 17:26:22 +0100 by logger.rb/41954
+I, [2013-12-29T17:26:22.514468 #48128]  INFO -- : 0:  rake (10.1.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rake-10.1.1.gemspec
+I, [2013-12-29T17:26:22.514816 #48128]  INFO -- : 0:  i18n (0.6.9) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/i18n-0.6.9.gemspec
+I, [2013-12-29T17:26:22.515151 #48128]  INFO -- : 0:  minitest (4.7.5) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/minitest-4.7.5.gemspec
+I, [2013-12-29T17:26:22.515412 #48128]  INFO -- : 0:  multi_json (1.8.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+I, [2013-12-29T17:26:22.515672 #48128]  INFO -- : 0:  atomic (1.1.14) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/atomic-1.1.14.gemspec
+I, [2013-12-29T17:26:22.515925 #48128]  INFO -- : 0:  thread_safe (0.1.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/thread_safe-0.1.3.gemspec
+I, [2013-12-29T17:26:22.516175 #48128]  INFO -- : 0:  tzinfo (0.3.38) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/tzinfo-0.3.38.gemspec
+I, [2013-12-29T17:26:22.516423 #48128]  INFO -- : 0:  activesupport (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/activesupport-4.0.2.gemspec
+I, [2013-12-29T17:26:22.516673 #48128]  INFO -- : 0:  builder (3.1.4) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/builder-3.1.4.gemspec
+I, [2013-12-29T17:26:22.516919 #48128]  INFO -- : 0:  erubis (2.7.0) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/erubis-2.7.0.gemspec
+I, [2013-12-29T17:26:22.517224 #48128]  INFO -- : 0:  rack (1.5.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rack-1.5.2.gemspec
+I, [2013-12-29T17:26:22.517435 #48128]  INFO -- : 0:  rack-test (0.6.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rack-test-0.6.2.gemspec
+I, [2013-12-29T17:26:22.517638 #48128]  INFO -- : 0:  actionpack (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/actionpack-4.0.2.gemspec
+I, [2013-12-29T17:26:22.517837 #48128]  INFO -- : 0:  mime-types (1.25.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/mime-types-1.25.1.gemspec
+I, [2013-12-29T17:26:22.518183 #48128]  INFO -- : 0:  polyglot (0.3.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/polyglot-0.3.3.gemspec
+I, [2013-12-29T17:26:22.518407 #48128]  INFO -- : 0:  treetop (1.4.15) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/treetop-1.4.15.gemspec
+I, [2013-12-29T17:26:22.518627 #48128]  INFO -- : 0:  mail (2.5.4) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/mail-2.5.4.gemspec
+I, [2013-12-29T17:26:22.518847 #48128]  INFO -- : 0:  actionmailer (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/actionmailer-4.0.2.gemspec
+I, [2013-12-29T17:26:22.519064 #48128]  INFO -- : 0:  activemodel (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/activemodel-4.0.2.gemspec
+I, [2013-12-29T17:26:22.519283 #48128]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2013-12-29T17:26:22.519498 #48128]  INFO -- : 0:  arel (4.0.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/arel-4.0.1.gemspec
+I, [2013-12-29T17:26:22.519714 #48128]  INFO -- : 0:  activerecord (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/activerecord-4.0.2.gemspec
+I, [2013-12-29T17:26:22.519922 #48128]  INFO -- : 0:  bundler (1.5.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/bundler-1.5.1.gemspec
+I, [2013-12-29T17:26:22.520154 #48128]  INFO -- : 0:  coffee-script-source (1.6.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/coffee-script-source-1.6.3.gemspec
+I, [2013-12-29T17:26:22.520463 #48128]  INFO -- : 0:  execjs (2.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/execjs-2.0.2.gemspec
+I, [2013-12-29T17:26:22.520675 #48128]  INFO -- : 0:  coffee-script (2.2.0) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/coffee-script-2.2.0.gemspec
+I, [2013-12-29T17:26:22.520917 #48128]  INFO -- : 0:  thor (0.18.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/thor-0.18.1.gemspec
+I, [2013-12-29T17:26:22.521157 #48128]  INFO -- : 0:  railties (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/railties-4.0.2.gemspec
+I, [2013-12-29T17:26:22.521398 #48128]  INFO -- : 0:  coffee-rails (4.0.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/coffee-rails-4.0.1.gemspec
+I, [2013-12-29T17:26:22.521650 #48128]  INFO -- : 0:  hike (1.2.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/hike-1.2.3.gemspec
+I, [2013-12-29T17:26:22.521884 #48128]  INFO -- : 0:  jbuilder (1.5.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/jbuilder-1.5.3.gemspec
+I, [2013-12-29T17:26:22.522102 #48128]  INFO -- : 0:  jquery-rails (3.0.4) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/jquery-rails-3.0.4.gemspec
+I, [2013-12-29T17:26:22.522332 #48128]  INFO -- : 0:  json (1.8.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/json-1.8.1.gemspec
+I, [2013-12-29T17:26:22.522556 #48128]  INFO -- : 0:  tilt (1.4.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/tilt-1.4.1.gemspec
+I, [2013-12-29T17:26:22.522781 #48128]  INFO -- : 0:  sprockets (2.10.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/sprockets-2.10.1.gemspec
+I, [2013-12-29T17:26:22.523006 #48128]  INFO -- : 0:  sprockets-rails (2.0.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/sprockets-rails-2.0.1.gemspec
+I, [2013-12-29T17:26:22.523226 #48128]  INFO -- : 0:  rails (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rails-4.0.2.gemspec
+I, [2013-12-29T17:26:22.523450 #48128]  INFO -- : 0:  rdoc (3.12.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rdoc-3.12.2.gemspec
+I, [2013-12-29T17:26:22.523669 #48128]  INFO -- : 0:  sass (3.2.13) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/sass-3.2.13.gemspec
+I, [2013-12-29T17:26:22.523893 #48128]  INFO -- : 0:  sass-rails (4.0.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/sass-rails-4.0.1.gemspec
+I, [2013-12-29T17:26:22.524114 #48128]  INFO -- : 0:  sdoc (0.3.20) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/sdoc-0.3.20.gemspec
+I, [2013-12-29T17:26:22.524336 #48128]  INFO -- : 0:  sqlite3 (1.3.8) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/sqlite3-1.3.8.gemspec
+I, [2013-12-29T17:26:22.524558 #48128]  INFO -- : 0:  turbolinks (2.1.0) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/turbolinks-2.1.0.gemspec
+I, [2013-12-29T17:26:24.497431 #48128]  INFO -- : 0:  uglifier (2.1.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/uglifier-2.1.1.gemspec
+I, [2013-12-29T17:26:39.788699 #48158]  INFO -- : 0:  rake (10.1.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rake-10.1.1.gemspec
+I, [2013-12-29T17:26:39.789094 #48158]  INFO -- : 0:  i18n (0.6.9) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/i18n-0.6.9.gemspec
+I, [2013-12-29T17:26:39.789375 #48158]  INFO -- : 0:  minitest (4.7.5) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/minitest-4.7.5.gemspec
+I, [2013-12-29T17:26:39.789643 #48158]  INFO -- : 0:  multi_json (1.8.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+I, [2013-12-29T17:26:39.789882 #48158]  INFO -- : 0:  atomic (1.1.14) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/atomic-1.1.14.gemspec
+I, [2013-12-29T17:26:39.790099 #48158]  INFO -- : 0:  thread_safe (0.1.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/thread_safe-0.1.3.gemspec
+I, [2013-12-29T17:26:39.790309 #48158]  INFO -- : 0:  tzinfo (0.3.38) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/tzinfo-0.3.38.gemspec
+I, [2013-12-29T17:26:39.790531 #48158]  INFO -- : 0:  activesupport (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/activesupport-4.0.2.gemspec
+I, [2013-12-29T17:26:39.790752 #48158]  INFO -- : 0:  builder (3.1.4) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/builder-3.1.4.gemspec
+I, [2013-12-29T17:26:39.790970 #48158]  INFO -- : 0:  erubis (2.7.0) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/erubis-2.7.0.gemspec
+I, [2013-12-29T17:26:39.791195 #48158]  INFO -- : 0:  rack (1.5.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rack-1.5.2.gemspec
+I, [2013-12-29T17:26:39.791415 #48158]  INFO -- : 0:  rack-test (0.6.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rack-test-0.6.2.gemspec
+I, [2013-12-29T17:26:39.791643 #48158]  INFO -- : 0:  actionpack (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/actionpack-4.0.2.gemspec
+I, [2013-12-29T17:26:39.791920 #48158]  INFO -- : 0:  mime-types (1.25.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/mime-types-1.25.1.gemspec
+I, [2013-12-29T17:26:39.792139 #48158]  INFO -- : 0:  polyglot (0.3.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/polyglot-0.3.3.gemspec
+I, [2013-12-29T17:26:39.792360 #48158]  INFO -- : 0:  treetop (1.4.15) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/treetop-1.4.15.gemspec
+I, [2013-12-29T17:26:39.792576 #48158]  INFO -- : 0:  mail (2.5.4) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/mail-2.5.4.gemspec
+I, [2013-12-29T17:26:39.792796 #48158]  INFO -- : 0:  actionmailer (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/actionmailer-4.0.2.gemspec
+I, [2013-12-29T17:26:39.793051 #48158]  INFO -- : 0:  activemodel (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/activemodel-4.0.2.gemspec
+I, [2013-12-29T17:26:39.793276 #48158]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2013-12-29T17:26:39.793482 #48158]  INFO -- : 0:  arel (4.0.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/arel-4.0.1.gemspec
+I, [2013-12-29T17:26:39.793712 #48158]  INFO -- : 0:  activerecord (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/activerecord-4.0.2.gemspec
+I, [2013-12-29T17:26:39.793924 #48158]  INFO -- : 0:  coffee-script-source (1.6.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/coffee-script-source-1.6.3.gemspec
+I, [2013-12-29T17:26:39.794141 #48158]  INFO -- : 0:  execjs (2.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/execjs-2.0.2.gemspec
+I, [2013-12-29T17:26:39.794354 #48158]  INFO -- : 0:  coffee-script (2.2.0) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/coffee-script-2.2.0.gemspec
+I, [2013-12-29T17:26:39.794566 #48158]  INFO -- : 0:  thor (0.18.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/thor-0.18.1.gemspec
+I, [2013-12-29T17:26:39.794794 #48158]  INFO -- : 0:  railties (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/railties-4.0.2.gemspec
+I, [2013-12-29T17:26:39.795011 #48158]  INFO -- : 0:  coffee-rails (4.0.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/coffee-rails-4.0.1.gemspec
+I, [2013-12-29T17:26:39.795232 #48158]  INFO -- : 0:  hike (1.2.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/hike-1.2.3.gemspec
+I, [2013-12-29T17:26:39.795502 #48158]  INFO -- : 0:  jbuilder (1.5.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/jbuilder-1.5.3.gemspec
+I, [2013-12-29T17:26:39.795723 #48158]  INFO -- : 0:  jquery-rails (3.0.4) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/jquery-rails-3.0.4.gemspec
+I, [2013-12-29T17:26:39.795943 #48158]  INFO -- : 0:  json (1.8.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/json-1.8.1.gemspec
+I, [2013-12-29T17:26:39.796155 #48158]  INFO -- : 0:  bundler (1.5.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/bundler-1.5.1.gemspec
+I, [2013-12-29T17:26:39.796477 #48158]  INFO -- : 0:  tilt (1.4.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/tilt-1.4.1.gemspec
+I, [2013-12-29T17:26:39.796754 #48158]  INFO -- : 0:  sprockets (2.10.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/sprockets-2.10.1.gemspec
+I, [2013-12-29T17:26:39.797131 #48158]  INFO -- : 0:  sprockets-rails (2.0.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/sprockets-rails-2.0.1.gemspec
+I, [2013-12-29T17:26:39.797433 #48158]  INFO -- : 0:  rails (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rails-4.0.2.gemspec
+I, [2013-12-29T17:26:39.797712 #48158]  INFO -- : 0:  rdoc (3.12.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rdoc-3.12.2.gemspec
+I, [2013-12-29T17:26:39.797987 #48158]  INFO -- : 0:  sass (3.2.13) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/sass-3.2.13.gemspec
+I, [2013-12-29T17:26:39.798254 #48158]  INFO -- : 0:  sass-rails (4.0.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/sass-rails-4.0.1.gemspec
+I, [2013-12-29T17:26:39.798525 #48158]  INFO -- : 0:  sdoc (0.3.20) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/sdoc-0.3.20.gemspec
+I, [2013-12-29T17:26:39.798795 #48158]  INFO -- : 0:  sqlite3 (1.3.8) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/sqlite3-1.3.8.gemspec
+I, [2013-12-29T17:26:39.799084 #48158]  INFO -- : 0:  turbolinks (2.1.0) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/turbolinks-2.1.0.gemspec
+I, [2013-12-29T17:26:39.799356 #48158]  INFO -- : 0:  uglifier (2.1.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/uglifier-2.1.1.gemspec
+I, [2013-12-29T17:49:55.686015 #49135]  INFO -- : 0:  rake (10.1.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rake-10.1.1.gemspec
+I, [2013-12-29T17:49:55.688302 #49135]  INFO -- : 0:  i18n (0.6.9) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/i18n-0.6.9.gemspec
+I, [2013-12-29T17:49:55.688641 #49135]  INFO -- : 0:  minitest (4.7.5) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/minitest-4.7.5.gemspec
+I, [2013-12-29T17:49:55.688896 #49135]  INFO -- : 0:  multi_json (1.8.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+I, [2013-12-29T17:49:55.689146 #49135]  INFO -- : 0:  atomic (1.1.14) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/atomic-1.1.14.gemspec
+I, [2013-12-29T17:49:55.689395 #49135]  INFO -- : 0:  thread_safe (0.1.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/thread_safe-0.1.3.gemspec
+I, [2013-12-29T17:49:55.689652 #49135]  INFO -- : 0:  tzinfo (0.3.38) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/tzinfo-0.3.38.gemspec
+I, [2013-12-29T17:49:55.689938 #49135]  INFO -- : 0:  activesupport (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/activesupport-4.0.2.gemspec
+I, [2013-12-29T17:49:55.690182 #49135]  INFO -- : 0:  builder (3.1.4) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/builder-3.1.4.gemspec
+I, [2013-12-29T17:49:55.690424 #49135]  INFO -- : 0:  erubis (2.7.0) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/erubis-2.7.0.gemspec
+I, [2013-12-29T17:49:55.690686 #49135]  INFO -- : 0:  rack (1.5.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rack-1.5.2.gemspec
+I, [2013-12-29T17:49:55.690930 #49135]  INFO -- : 0:  rack-test (0.6.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rack-test-0.6.2.gemspec
+I, [2013-12-29T17:49:55.691253 #49135]  INFO -- : 0:  actionpack (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/actionpack-4.0.2.gemspec
+I, [2013-12-29T17:49:55.691528 #49135]  INFO -- : 0:  mime-types (1.25.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/mime-types-1.25.1.gemspec
+I, [2013-12-29T17:49:55.691797 #49135]  INFO -- : 0:  polyglot (0.3.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/polyglot-0.3.3.gemspec
+I, [2013-12-29T17:49:55.692064 #49135]  INFO -- : 0:  treetop (1.4.15) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/treetop-1.4.15.gemspec
+I, [2013-12-29T17:49:55.692365 #49135]  INFO -- : 0:  mail (2.5.4) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/mail-2.5.4.gemspec
+I, [2013-12-29T17:49:55.692614 #49135]  INFO -- : 0:  actionmailer (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/actionmailer-4.0.2.gemspec
+I, [2013-12-29T17:49:55.692856 #49135]  INFO -- : 0:  activemodel (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/activemodel-4.0.2.gemspec
+I, [2013-12-29T17:49:55.693102 #49135]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2013-12-29T17:49:55.693383 #49135]  INFO -- : 0:  arel (4.0.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/arel-4.0.1.gemspec
+I, [2013-12-29T17:49:55.693628 #49135]  INFO -- : 0:  activerecord (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/activerecord-4.0.2.gemspec
+I, [2013-12-29T17:49:55.693844 #49135]  INFO -- : 0:  bundler (1.5.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/bundler-1.5.1.gemspec
+I, [2013-12-29T17:49:57.456751 #49135]  INFO -- : 0:  mini_portile (0.5.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/mini_portile-0.5.2.gemspec
+I, [2013-12-29T17:51:48.556686 #49135]  INFO -- : 0:  nokogiri (1.6.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/nokogiri-1.6.1.gemspec
+I, [2013-12-29T17:51:50.353135 #49135]  INFO -- : 0:  xpath (2.0.0) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/xpath-2.0.0.gemspec
+I, [2013-12-29T17:51:52.644497 #49135]  INFO -- : 0:  capybara (2.1.0) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/capybara-2.1.0.gemspec
+I, [2013-12-29T17:52:00.806821 #49135]  INFO -- : 0:  ffi (1.9.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/ffi-1.9.3.gemspec
+I, [2013-12-29T17:52:04.151989 #49135]  INFO -- : 0:  childprocess (0.3.9) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/childprocess-0.3.9.gemspec
+I, [2013-12-29T17:52:04.152923 #49135]  INFO -- : 0:  coffee-script-source (1.6.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/coffee-script-source-1.6.3.gemspec
+I, [2013-12-29T17:52:04.153245 #49135]  INFO -- : 0:  execjs (2.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/execjs-2.0.2.gemspec
+I, [2013-12-29T17:52:04.153553 #49135]  INFO -- : 0:  coffee-script (2.2.0) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/coffee-script-2.2.0.gemspec
+I, [2013-12-29T17:52:04.153849 #49135]  INFO -- : 0:  thor (0.18.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/thor-0.18.1.gemspec
+I, [2013-12-29T17:52:04.154313 #49135]  INFO -- : 0:  railties (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/railties-4.0.2.gemspec
+I, [2013-12-29T17:52:04.154614 #49135]  INFO -- : 0:  coffee-rails (4.0.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/coffee-rails-4.0.1.gemspec
+I, [2013-12-29T17:52:06.462729 #49135]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/diff-lcs-1.2.5.gemspec
+I, [2013-12-29T17:52:06.463129 #49135]  INFO -- : 0:  hike (1.2.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/hike-1.2.3.gemspec
+I, [2013-12-29T17:52:08.836148 #49135]  INFO -- : 0:  jbuilder (1.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/jbuilder-1.0.2.gemspec
+I, [2013-12-29T17:52:08.836565 #49135]  INFO -- : 0:  jquery-rails (3.0.4) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/jquery-rails-3.0.4.gemspec
+I, [2013-12-29T17:52:08.836873 #49135]  INFO -- : 0:  json (1.8.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/json-1.8.1.gemspec
+E, [2013-12-29T17:52:12.712890 #49135] ERROR -- : Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+
+    /Users/oaouf/.rbenv/versions/2.0.0-p353/bin/ruby extconf.rb 
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lm... yes
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lz... yes
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lsocket... no
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lnsl... no
+checking for mysql_query() in -lmysqlclient... no
+checking for main() in -lmygcc... no
+checking for mysql_query() in -lmysqlclient... no
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/oaouf/.rbenv/versions/2.0.0-p353/bin/ruby
+	--with-mysql-config
+	--without-mysql-config
+	--with-mysql-dir
+	--without-mysql-dir
+	--with-mysql-include
+	--without-mysql-include=${mysql-dir}/include
+	--with-mysql-lib
+	--without-mysql-lib=${mysql-dir}/
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-mlib
+	--without-mlib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-zlib
+	--without-zlib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-socketlib
+	--without-socketlib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-nsllib
+	--without-nsllib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+	--with-mygcclib
+	--without-mygcclib
+	--with-mysqlclientlib
+	--without-mysqlclientlib
+
+
+Gem files will remain installed in /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/mysql-2.9.1 for inspection.
+Results logged to /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/mysql-2.9.1/ext/mysql_api/gem_make.out
+
+/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:77:in `run'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:39:in `block in build'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/tempfile.rb:324:in `open'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:19:in `build'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:148:in `block (2 levels) in build_extension'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:147:in `chdir'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:147:in `block in build_extension'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:146:in `synchronize'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:146:in `build_extension'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:180:in `block in build_extensions'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:177:in `each'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:177:in `build_extensions'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:666:in `build_extensions'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:224:in `install'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/bin/bundle:23:in `load'  \n/Users/oaouf/.rbenv/versions/2.0.0-p353/bin/bundle:23:in `<main>'
+I, [2013-12-29T18:30:20.826295 #67975]  INFO -- : 0:  rake (10.1.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rake-10.1.1.gemspec
+I, [2013-12-29T18:30:20.828704 #67975]  INFO -- : 0:  i18n (0.6.9) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/i18n-0.6.9.gemspec
+I, [2013-12-29T18:30:20.829037 #67975]  INFO -- : 0:  minitest (4.7.5) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/minitest-4.7.5.gemspec
+I, [2013-12-29T18:30:20.829262 #67975]  INFO -- : 0:  multi_json (1.8.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/multi_json-1.8.2.gemspec
+I, [2013-12-29T18:30:20.829478 #67975]  INFO -- : 0:  atomic (1.1.14) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/atomic-1.1.14.gemspec
+I, [2013-12-29T18:30:20.829694 #67975]  INFO -- : 0:  thread_safe (0.1.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/thread_safe-0.1.3.gemspec
+I, [2013-12-29T18:30:20.829907 #67975]  INFO -- : 0:  tzinfo (0.3.38) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/tzinfo-0.3.38.gemspec
+I, [2013-12-29T18:30:20.830128 #67975]  INFO -- : 0:  activesupport (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/activesupport-4.0.2.gemspec
+I, [2013-12-29T18:30:20.830426 #67975]  INFO -- : 0:  builder (3.1.4) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/builder-3.1.4.gemspec
+I, [2013-12-29T18:30:20.830687 #67975]  INFO -- : 0:  erubis (2.7.0) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/erubis-2.7.0.gemspec
+I, [2013-12-29T18:30:20.830934 #67975]  INFO -- : 0:  rack (1.5.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rack-1.5.2.gemspec
+I, [2013-12-29T18:30:20.831176 #67975]  INFO -- : 0:  rack-test (0.6.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rack-test-0.6.2.gemspec
+I, [2013-12-29T18:30:20.831415 #67975]  INFO -- : 0:  actionpack (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/actionpack-4.0.2.gemspec
+I, [2013-12-29T18:30:20.831652 #67975]  INFO -- : 0:  mime-types (1.25.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/mime-types-1.25.1.gemspec
+I, [2013-12-29T18:30:20.831889 #67975]  INFO -- : 0:  polyglot (0.3.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/polyglot-0.3.3.gemspec
+I, [2013-12-29T18:30:20.832122 #67975]  INFO -- : 0:  treetop (1.4.15) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/treetop-1.4.15.gemspec
+I, [2013-12-29T18:30:20.832368 #67975]  INFO -- : 0:  mail (2.5.4) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/mail-2.5.4.gemspec
+I, [2013-12-29T18:30:20.832605 #67975]  INFO -- : 0:  actionmailer (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/actionmailer-4.0.2.gemspec
+I, [2013-12-29T18:30:20.832839 #67975]  INFO -- : 0:  activemodel (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/activemodel-4.0.2.gemspec
+I, [2013-12-29T18:30:20.833095 #67975]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2013-12-29T18:30:20.833372 #67975]  INFO -- : 0:  arel (4.0.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/arel-4.0.1.gemspec
+I, [2013-12-29T18:30:20.833608 #67975]  INFO -- : 0:  activerecord (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/activerecord-4.0.2.gemspec
+I, [2013-12-29T18:30:20.833839 #67975]  INFO -- : 0:  bundler (1.5.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/bundler-1.5.1.gemspec
+I, [2013-12-29T18:30:20.834111 #67975]  INFO -- : 0:  mini_portile (0.5.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/mini_portile-0.5.2.gemspec
+I, [2013-12-29T18:30:20.834346 #67975]  INFO -- : 0:  nokogiri (1.6.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/nokogiri-1.6.1.gemspec
+I, [2013-12-29T18:30:20.834578 #67975]  INFO -- : 0:  xpath (2.0.0) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/xpath-2.0.0.gemspec
+I, [2013-12-29T18:30:20.834812 #67975]  INFO -- : 0:  capybara (2.1.0) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/capybara-2.1.0.gemspec
+I, [2013-12-29T18:30:20.835044 #67975]  INFO -- : 0:  ffi (1.9.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/ffi-1.9.3.gemspec
+I, [2013-12-29T18:30:20.835279 #67975]  INFO -- : 0:  childprocess (0.3.9) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/childprocess-0.3.9.gemspec
+I, [2013-12-29T18:30:20.835510 #67975]  INFO -- : 0:  coffee-script-source (1.6.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/coffee-script-source-1.6.3.gemspec
+I, [2013-12-29T18:30:20.835766 #67975]  INFO -- : 0:  execjs (2.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/execjs-2.0.2.gemspec
+I, [2013-12-29T18:30:20.836015 #67975]  INFO -- : 0:  coffee-script (2.2.0) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/coffee-script-2.2.0.gemspec
+I, [2013-12-29T18:30:20.836469 #67975]  INFO -- : 0:  thor (0.18.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/thor-0.18.1.gemspec
+I, [2013-12-29T18:30:20.837119 #67975]  INFO -- : 0:  railties (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/railties-4.0.2.gemspec
+I, [2013-12-29T18:30:20.837702 #67975]  INFO -- : 0:  coffee-rails (4.0.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/coffee-rails-4.0.1.gemspec
+I, [2013-12-29T18:30:20.838066 #67975]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/diff-lcs-1.2.5.gemspec
+I, [2013-12-29T18:30:20.838462 #67975]  INFO -- : 0:  hike (1.2.3) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/hike-1.2.3.gemspec
+I, [2013-12-29T18:30:20.838824 #67975]  INFO -- : 0:  jbuilder (1.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/jbuilder-1.0.2.gemspec
+I, [2013-12-29T18:30:20.839258 #67975]  INFO -- : 0:  jquery-rails (3.0.4) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/jquery-rails-3.0.4.gemspec
+I, [2013-12-29T18:30:20.839609 #67975]  INFO -- : 0:  json (1.8.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/json-1.8.1.gemspec
+I, [2013-12-29T18:30:20.839945 #67975]  INFO -- : 0:  mysql (2.9.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/mysql-2.9.1.gemspec
+I, [2013-12-29T18:30:20.840277 #67975]  INFO -- : 0:  tilt (1.4.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/tilt-1.4.1.gemspec
+I, [2013-12-29T18:30:20.840636 #67975]  INFO -- : 0:  sprockets (2.10.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/sprockets-2.10.1.gemspec
+I, [2013-12-29T18:30:20.840985 #67975]  INFO -- : 0:  sprockets-rails (2.0.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/sprockets-rails-2.0.1.gemspec
+I, [2013-12-29T18:30:20.841323 #67975]  INFO -- : 0:  rails (4.0.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rails-4.0.2.gemspec
+I, [2013-12-29T18:30:20.841711 #67975]  INFO -- : 0:  rdoc (3.12.2) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rdoc-3.12.2.gemspec
+I, [2013-12-29T18:30:23.350936 #67975]  INFO -- : 0:  rspec-core (2.13.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rspec-core-2.13.1.gemspec
+I, [2013-12-29T18:30:25.425118 #67975]  INFO -- : 0:  rspec-expectations (2.13.0) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rspec-expectations-2.13.0.gemspec
+I, [2013-12-29T18:30:28.288239 #67975]  INFO -- : 0:  rspec-mocks (2.13.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rspec-mocks-2.13.1.gemspec
+I, [2013-12-29T18:30:30.320475 #67975]  INFO -- : 0:  rspec-rails (2.13.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rspec-rails-2.13.1.gemspec
+I, [2013-12-29T18:30:31.874385 #67975]  INFO -- : 0:  rubyzip (0.9.9) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/rubyzip-0.9.9.gemspec
+I, [2013-12-29T18:30:31.875028 #67975]  INFO -- : 0:  sass (3.2.13) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/sass-3.2.13.gemspec
+I, [2013-12-29T18:30:31.875447 #67975]  INFO -- : 0:  sass-rails (4.0.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/sass-rails-4.0.1.gemspec
+I, [2013-12-29T18:30:31.875705 #67975]  INFO -- : 0:  sdoc (0.3.20) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/sdoc-0.3.20.gemspec
+I, [2013-12-29T18:30:34.108825 #67975]  INFO -- : 0:  websocket (1.0.7) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/websocket-1.0.7.gemspec
+I, [2013-12-29T18:30:54.586417 #67975]  INFO -- : 0:  selenium-webdriver (2.35.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/selenium-webdriver-2.35.1.gemspec
+I, [2013-12-29T18:30:56.405807 #67975]  INFO -- : 0:  turbolinks (1.1.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/turbolinks-1.1.1.gemspec
+I, [2013-12-29T18:30:56.406230 #67975]  INFO -- : 0:  uglifier (2.1.1) from /Users/oaouf/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/specifications/uglifier-2.1.1.gemspec
