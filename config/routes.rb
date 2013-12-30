@@ -1,9 +1,17 @@
 MadeInSyriaFR::Application.routes.draw do
+  #Static pages
   root  'static_pages#home'
   match '/about',   to: 'static_pages#about',   via: 'get'
   match '/contact', to: 'static_pages#contact', via: 'get'
-  match '/signin', to: 'users#signin', via: 'get'
-  match '/signup', to: 'users#signup', via: 'get'
+
+  #User related pages
+  resources :users
+  match '/signup', to: 'users#new', via: 'get'
+
+  #Session related pages
+  resources :sessions, only: [:new, :create, :destroy]
+  match '/signin',  to: 'sessions#new',         via: 'get'
+  match '/signout', to: 'sessions#destroy',     via: 'delete'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
