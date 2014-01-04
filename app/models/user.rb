@@ -9,6 +9,11 @@ class User < ActiveRecord::Base
   validates :email, presence: true, format: {with: VALID_EMAIL_REGEX}, uniqueness: {case_sensitive: false}
   validates :password, length: { minimum: 8 }
 
+  #Will_paginate count per page
+  def self.per_page
+    10
+  end
+
   #Session token generation
   def User.new_remember_token
     SecureRandom.urlsafe_base64
