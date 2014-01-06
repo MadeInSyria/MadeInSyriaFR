@@ -9,4 +9,10 @@ FactoryGirl.define do
       admin true
     end
   end
+
+  factory :post do
+    sequence(:title)    { |n| "Post #{n}" }
+    sequence(:content) { |n| "Content #{n}" }
+    user
+  end
 end

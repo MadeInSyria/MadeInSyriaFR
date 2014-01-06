@@ -8,7 +8,7 @@ namespace :db do
                  password: pwd,
                  password_confirmation: pwd,
                  admin: true)
-    99.times do |n|
+    20.times do |n|
       name  = Faker::Name.name
       email = "example-#{n+1}@railstutorial.org"
       password  = "password"
@@ -16,6 +16,12 @@ namespace :db do
                    email: email,
                    password: password,
                    password_confirmation: password)
+    end
+    users = User.all(limit: 20)
+    2.times do
+      title = Faker::Lorem.sentence(1)
+      content = Faker::Lorem.paragraphs(10)
+      users.each { |user| user.posts.create!(content: content, title: title) }
     end
   end
 end

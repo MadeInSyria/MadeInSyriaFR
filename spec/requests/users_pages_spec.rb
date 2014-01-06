@@ -18,7 +18,7 @@ describe "User pages" do
 
       it { should have_selector('div.pagination') }
       User.paginate(page: 1).each do |user|
-        expect(page).to have_selector('li', text: user.name)
+        expect(:page).to have_selector('li', text: user.name)
       end
     end
 
@@ -54,10 +54,19 @@ describe "User pages" do
 
   describe "profile page" do
     let(:user) { FactoryGirl.create(:user) }
+    let!(:m1) { FactoryGirl.create(:post, user: user, title: "111", content: "Foo") }
+    let!(:m2) { FactoryGirl.create(:post, user: user, title: "222", content: "Bar") }
+
     before { visit user_path(user) }
 
     it { should have_content(user.name) }
     it { should have_title(user.name) }
+
+    describe "posts" do
+      it { should have_content(m1.content) }
+      it { should have_content(m2.content) }
+      it { should have_content(user.posts.count) }
+    end
   end
   describe "signup page" do
 

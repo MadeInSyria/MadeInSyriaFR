@@ -10,6 +10,20 @@ module SessionsHelper
     !current_user.nil?
   end
 
+  def signed_in_user
+    unless signed_in?
+      store_location
+      redirect_to signin_url, notice: "Please sign in."
+    end
+  end
+
+  def authorized_user
+    @user = User.find(params[:id])
+    if !current_user?(@user) && !current_user.admin?
+      redirect_to(root_url)
+    end
+  end
+
   def current_user=(user)
     @current_user = user
   end

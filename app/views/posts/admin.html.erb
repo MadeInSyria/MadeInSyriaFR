@@ -1,0 +1,16 @@
+<% provide(:title, 'Posts Admin') %>
+<div class="page-header">
+  <h1>Posts Admint</h1>
+</div>
+
+<ul class="posts">
+  <% @posts.each do |post| %>
+    <%= link_to post.title, post %> posted <%= post.created_at %> ago by <%= link_to post.user.name, post.user %>. 
+    <% if signed_in? && current_user.admin? %> 
+      | <%= link_to "Delete", post, method: :delete, data: { confirm: "You sure?" } %>
+      | <%= link_to "Edit", edit_post_path(post.id) %>
+    <% end %> <br />
+  <% end %> 
+</ul>
+
+<%= will_paginate @posts, renderer: BootstrapPagination::Rails %>

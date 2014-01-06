@@ -1,0 +1,21 @@
+<% provide(:title, 'New post') %>
+<div class="page-header">
+  <h1>New post</h1>
+</div>
+
+<div class="row">
+  <div class="span6 offset3">
+    <%= form_for(@post) do |f| %>
+      <%= render 'shared/error_messages_post' %>
+      
+      <%= f.label :title %>
+      <%= f.text_field :title , class: 'form-control'%>
+
+      <%= f.label :content %>
+      <%= f.text_area :content , class: 'form-control tinymce', :rows => 20, :cols => 80 %>
+      <%= tinymce :content_css => asset_path('custom.css') %>
+
+      <%= f.submit "Post", class: "btn btn-large btn-primary" %>
+    <% end %>
+  </div>
+</div>

@@ -1,6 +1,6 @@
 MadeInSyriaFR::Application.routes.draw do
   #Static pages
-  root  'static_pages#home'
+  root  'posts#index'
   match '/about',   to: 'static_pages#about',   via: 'get'
   match '/contact', to: 'static_pages#contact', via: 'get'
 
@@ -12,6 +12,12 @@ MadeInSyriaFR::Application.routes.draw do
   resources :sessions, only: [:new, :create, :destroy]
   match '/signin',  to: 'sessions#new',         via: 'get'
   match '/signout', to: 'sessions#destroy',     via: 'delete'
+
+  #Blogposts
+  resources :posts
+  match '/newpost',  to: 'posts#new',         via: 'get'
+  match '/admin/posts', to: 'posts#admin',    via: 'get'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

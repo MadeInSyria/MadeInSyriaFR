@@ -1,0 +1,14 @@
+<div class="center jumbotron">
+  <h2>
+    Post Title here
+  </h2>
+  <p>Post summary here</p>
+</div>
+
+<% provide(:title, 'For a Geek New World') %>
+
+<ul class="posts">
+      <%= render @posts %>
+</ul>
+
+<%= will_paginate @posts, renderer: BootstrapPagination::Rails %>
