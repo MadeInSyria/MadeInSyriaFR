@@ -29,6 +29,7 @@ gem 'faker', '1.1.2'
 gem 'will_paginate', '3.0.4'
 gem 'will_paginate-bootstrap', '1.0.0'
 gem 'tinymce-rails'
+gem "paperclip", "~> 3.0"
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false

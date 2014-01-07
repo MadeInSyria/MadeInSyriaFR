@@ -9,7 +9,10 @@
       <%= render 'shared/error_messages_post' %>
       
       <%= f.label :title %>
-      <%= f.text_field :title , class: 'form-control'%>
+      <%= f.text_field :title, class: 'form-control' %>
+
+      <%= f.label :illustration %>
+      <%= f.file_field :illustration, class: 'form-control' %>
 
       <%= f.label :content %>
       <%= f.text_area :content , class: 'form-control tinymce', :rows => 20, :cols => 80 %>
