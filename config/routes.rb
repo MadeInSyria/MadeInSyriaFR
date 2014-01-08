@@ -10,14 +10,18 @@ MadeInSyriaFR::Application.routes.draw do
 
   #Session related pages
   resources :sessions, only: [:new, :create, :destroy]
-  match '/signin',  to: 'sessions#new',         via: 'get'
-  match '/signout', to: 'sessions#destroy',     via: 'delete'
+  match '/signin',  to: 'sessions#new',     via: 'get'
+  match '/signout', to: 'sessions#destroy', via: 'delete'
 
   #Blogposts
   resources :posts
-  match '/newpost',  to: 'posts#new',         via: 'get'
-  match '/admin/posts', to: 'posts#admin',    via: 'get'
-  
+  match '/newpost',     to: 'posts#new',    via: 'get'
+  match '/admin/posts', to: 'posts#admin',  via: 'get'
+
+  #Categories
+  resources :categories
+  match '/newcategory', to: 'categories#new', via: 'get'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -12,7 +12,11 @@ FactoryGirl.define do
 
   factory :post do
     sequence(:title)    { |n| "Post #{n}" }
-    sequence(:content) { |n| "Content #{n}" }
+    sequence(:content)  { |n| "Content #{n}" }
     user
+  end
+
+  factory :category do
+    sequence(:name) { |n| "Category #{n}"}
   end
 end

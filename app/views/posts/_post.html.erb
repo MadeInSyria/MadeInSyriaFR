@@ -1,10 +1,11 @@
-<h1><%= link_to post.title, post %></h1>
-<p>
-  <%= image_tag post.illustration.url(:thumb) %>
-  <%= post.content.html_safe %>
-</p>
-<span class="timestamp">
-  Posted <%= time_ago_in_words(post.created_at) %> ago by <%= link_to post.user.name, post.user %>. <% if signed_in? && current_user.admin? %>
-  | <%= link_to "Delete", post, method: :delete, data: { confirm: "You sure?" } %>
-  | <%= link_to "Edit", edit_post_path(post.id) %> <% end %>
-</span>
+<li><h1 class="title"><%= link_to post.title, post %></h1>
+  <p>
+    <%= image_tag post.illustration.url(:thumb), class: 'thumb' %>
+    <%= post.content.html_safe %>
+  </p>
+  <span class="timestamp">
+    Posted <%= time_ago_in_words(post.created_at) %> ago by <%= link_to post.user.name, post.user %>. <% if signed_in? && current_user.admin? %>
+    | <%= link_to "Delete", post, method: :delete, data: { confirm: "You sure?" } %>
+    | <%= link_to "Edit", edit_post_path(post.id) %> <% end %>
+  </span>
+</li>

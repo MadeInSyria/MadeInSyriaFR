@@ -1,6 +1,6 @@
 class Post < ActiveRecord::Base
   belongs_to :user
-  has_many :categories, through
+  has_and_belongs_to_many :categories
   default_scope -> { order('created_at DESC') }
   validates :content, presence: true
   validates :user_id, presence: true

@@ -29,7 +29,7 @@ textarea {
 }
 
 .center {
-  text-align: center;
+  text-align: left;
 }
 
 .center h1 {
@@ -45,15 +45,15 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 3em;
   letter-spacing: -2px;
-  margin-bottom: 30px;
-  text-align: center;
+  margin: 30px;
+  text-align: left;
 }
 
 h2 {
   font-size: 1.2em;
   letter-spacing: -1px;
   margin-bottom: 30px;
-  text-align: center;
+  text-align: left;
   font-weight: normal;
   color: #999;
 }
@@ -82,6 +82,17 @@ p {
   color: #fff;
   text-decoration: none;
 }
+
+.jumbotron {
+  width: 75%;
+  text-align: center;
+  margin: auto;
+}
+
+.jumbotron h1, .jumbotron h2{
+  text-align: center;
+}
+
 
 /* footer */
 
@@ -163,7 +174,7 @@ input, textarea, select, .uneditable-input{
   @include box_sizing;
 }
 
-.signup-form, .signin-form {
+.signup-form, .signin-form, .category-form {
   width: 50%;
   margin: auto;
 }
@@ -204,17 +215,23 @@ input {
   }
 }
 
-/* microposts */
+/* posts */
 
-.microposts {
+.posts {
   list-style: none;
   margin: 10px 0 0 0;
 
   li {
     padding: 10px 0;
     border-top: 1px solid #e8e8e8;
+    min-height: 350px;
   }
 }
+
+.container li {
+  list-style: none;
+}
+
 .content {
   display: block;
 }
@@ -230,4 +247,15 @@ aside {
     height: 100px;
     margin-bottom: 5px;
   }
+}
+
+.thumb {
+  float: left;
+  margin : 10px;
+}
+
+/* categories */
+
+.category {
+  font-size: 1.8em;
 }

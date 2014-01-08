@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
   before_action :signed_in_user, only: [:create, :destroy, :edit]
-  before_action :authorized_user, only: [:edit]
+  before_action :authorized_user, only: [:destroy, :edit]
 
   def index
     @posts = Post.paginate(page: params[:page], :per_page => 5)
@@ -12,6 +12,16 @@ class PostsController < ApplicationController
 
   def new
     @post = Post.new
+  end
+
+  def create
+    @post = current_user.posts.build(post_params)
+    if @post.save
+      flash[:success] = "Post created!"
+      redirect_to root_url
+    else
+      render "new"
+    end
   end
 
   def edit
@@ -28,24 +38,14 @@ class PostsController < ApplicationController
     end
   end
 
-  def admin
-    @posts = Post.paginate(page: params[:page])
-  end
-
-  def create
-    @post = current_user.posts.build(post_params)
-    if @post.save
-      flash[:success] = "Post created!"
-      redirect_to root_url
-    else
-      render "new"
-    end
-  end
-
   def destroy
     Post.find(params[:id]).destroy
     flash[:success] = "Post deleted."
     redirect_to posts_url
+  end
+
+  def admin
+    @posts = Post.paginate(page: params[:page])
   end
 
   private

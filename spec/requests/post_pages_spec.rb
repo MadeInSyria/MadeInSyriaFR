@@ -9,7 +9,6 @@ describe "Post pages" do
 
   describe "post creation" do
     before { visit newpost_path }
-
     describe "with invalid information" do
 
       it "should not create a post" do
