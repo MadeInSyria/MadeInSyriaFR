@@ -3,3 +3,8 @@
   <h1><%= @category.name %></h1>
 </div>
 <h2>Posts in these category</h2>
+<ul>
+  <% @category.posts.load.each do |post| %>
+    <li><%= link_to post.title, post%></li>
+  <% end %>
+</ul>

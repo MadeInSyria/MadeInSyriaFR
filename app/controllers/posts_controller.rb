@@ -4,6 +4,7 @@ class PostsController < ApplicationController
 
   def index
     @posts = Post.paginate(page: params[:page], :per_page => 5)
+    @featured = Category.find_by(name: "featured").posts.find(:all, :order => "id desc", :limit => 3).reverse
   end
 
   def show
@@ -12,9 +13,13 @@ class PostsController < ApplicationController
 
   def new
     @post = Post.new
+    @category = Category.all
   end
 
   def create
+    if params[:post][:excerpt].empty?
+      params[:post][:excerpt] = build_excerpt(params[:post][:content])
+    end
     @post = current_user.posts.build(post_params)
     if @post.save
       flash[:success] = "Post created!"
@@ -29,6 +34,9 @@ class PostsController < ApplicationController
   end
 
   def update
+    if params[:post][:excerpt].empty?
+      params[:post][:excerpt] = build_excerpt(params[:post][:content])
+    end
     @post = Post.find(params[:id])
     if @post.update_attributes(post_params)
       flash[:success] = "Post updated"
@@ -50,6 +58,20 @@ class PostsController < ApplicationController
 
   private
     def post_params
-      params.require(:post).permit(:title, :content, :illustration)
+      params.require(:post).permit(:title, :content, :illustration, {:category_ids => []}, :excerpt)
     end
+
+  def authorized_user
+    @post = Post.find(params[:id]).user_id
+    if !current_user?(@post) && !current_user.admin?
+      redirect_to(root_url)
+    end
+  end
+
+  def build_excerpt(text, max_sentences = 8, max_words = 450)
+    three_sentences = text.split('. ').slice(0, max_sentences).join('. ')
+    shortened = three_sentences.split(' ').slice(0, max_words).join(' ')
+    shortened = Nokogiri::HTML::DocumentFragment.parse(shortened).to_html
+    return shortened
+  end
 end

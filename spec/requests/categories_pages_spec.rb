@@ -5,7 +5,8 @@ describe "Category pages" do
   subject { page }
 
   let(:admin) { FactoryGirl.create(:admin) }
-  before { sign_in admin }
+  before { sign_in 1admin }
+  after(:all) { User.delete_all }
 
   describe "category creation" do
     before { visit newcategory_path }
@@ -23,21 +24,21 @@ describe "Category pages" do
 
     describe "with valid information" do
 
-      before { fill_in 'category_content', with: "Lorem ipsum" }
+      before { fill_in 'category_name', with: "Lorem ipsum" }
       it "should create a category" do
         expect { click_button "Create" }.to change(Category, :count).by(1)
       end
     end
   end
 
-  # describe "show categorys" do
-  #   before(:all) do
-  #     30.times { FactoryGirl.create(:category) } 
-  #     visit categorys_path 
-  #   end
-  #   after(:all)  { Category.delete_all }
+   describe "show categorys" do
+     before(:all) do
+       30.times { FactoryGirl.create(:category) } 
+       visit categories_path 
+     end
+     after(:all)  { Category.delete_all }
 
-  #   it { should have_selector('div.pagination') }
-  #   it { should have_link('delete', href: category_path(Category.first)) }
-  # end
+     it { should have_selector('div.pagination') }
+     it { should have_link('delete', href: category_path(Category.first)) }
+   end
 end

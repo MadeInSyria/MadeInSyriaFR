@@ -1,14 +1,78 @@
 <div class="center jumbotron">
-  <h2>
-    Post Title here
-  </h2>
-  <p>Post summary here</p>
+  <div class="jcarousel-wrapper">
+    <div class="jcarousel">
+      <ul>
+        <% @featured.each do |f| %>
+          <li>
+            <%= image_tag f.illustration.url(:thumb), class: 'thumb' %>
+            <div class="excerpt">
+                <h1><%= link_to f.title, f %></h1>
+                <p><%= sanitize f.excerpt %></p>
+            <div>
+          </li>
+        <% end %>
+    </ul>
+    <span class="jcarousel-control-prev glyphicon glyphicon-circle-arrow-left"></span>
+    <span class="jcarousel-control-next glyphicon glyphicon-circle-arrow-right"></span>
+    </div>
+  </div>
 </div>
 
 <% provide(:title, 'For a Geek New World') %>
 
 <ul class="posts">
-      <%= render @posts %>
+    <% @posts.each do |post| %>
+    <li><h1 class="title"><%= link_to post.title, post %></h1>
+      <p>
+        <%= image_tag post.illustration.url(:thumb), class: 'thumb' %>
+        <%= sanitize post.excerpt %>
+      </p>
+      <span class="timestamp">
+        Posted <%= time_ago_in_words(post.created_at) %> ago by <%= link_to post.user.name, post.user %>. <% if signed_in? && current_user.admin? %>
+        | <%= link_to "Delete", post, method: :delete, data: { confirm: "You sure?" } %>
+        | <%= link_to "Edit", edit_post_path(post.id) %> <% end %>
+      </span>
+    </li>
+    <% end %>
 </ul>
+
+<script type="text/javascript">
+(function($) {
+    $(function() {
+        $('.jcarousel').jcarousel();
+
+        $('.jcarousel-control-prev')
+            .on('jcarouselcontrol:active', function() {
+                $(this).removeClass('inactive');
+            })
+            .on('jcarouselcontrol:inactive', function() {
+                $(this).addClass('inactive');
+            })
+            .jcarouselControl({
+                target: '-=1'
+            });
+
+        $('.jcarousel-control-next')
+            .on('jcarouselcontrol:active', function() {
+                $(this).removeClass('inactive');
+            })
+            .on('jcarouselcontrol:inactive', function() {
+                $(this).addClass('inactive');
+            })
+            .jcarouselControl({
+                target: '+=1'
+            });
+
+        $('.jcarousel-pagination')
+            .on('jcarouselpagination:active', 'a', function() {
+                $(this).addClass('active');
+            })
+            .on('jcarouselpagination:inactive', 'a', function() {
+                $(this).removeClass('active');
+            })
+            .jcarouselPagination();
+    });
+})(jQuery);
+</script>
 
 <%= will_paginate @posts, renderer: BootstrapPagination::Rails %>

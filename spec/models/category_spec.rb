@@ -9,7 +9,7 @@ describe Category do
 
   it { should respond_to(:name) }
 
-  it {should_be valid}
+  it {should be_valid}
 
   describe "when name is not present" do
     before { @category.name = nil }

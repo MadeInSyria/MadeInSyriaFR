@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
   before_filter :signed_in_user, only: [:edit, :update, :index, :destroy]
   before_filter :authorized_user, only: [:edit, :update, :destroy]
+  before_filter :is_admin, only: [:new, :create]
 
 
   #Display user
@@ -53,10 +54,21 @@ class UsersController < ApplicationController
   end
 
   private
-
-  #Required params
+    #Required params
     def user_params
-      params.require(:user).permit(:name, :email, :password,
-                                   :password_confirmation)
+      params.require(:user).permit(:name, :email, :password, :password_confirmation)
     end
-end
+
+    def authorized_user
+      @user = User.find(params[:id])
+      if !current_user?(@user) && !current_user.admin?
+        redirect_to(root_url)
+      end
+    end
+
+    def is_admin
+      if !current_user.admin?
+        redirect_to(root_url)
+      end
+    end
+  end

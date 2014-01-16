@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140107133347) do
+ActiveRecord::Schema.define(version: 20140115044444) do
 
   create_table "categories", force: true do |t|
     t.string   "name"
@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(version: 20140107133347) do
     t.string   "illustration_content_type"
     t.integer  "illustration_file_size"
     t.datetime "illustration_updated_at"
+    t.text     "excerpt"
   end
 
   add_index "posts", ["user_id", "created_at"], name: "index_posts_on_user_id_and_created_at", using: :btree

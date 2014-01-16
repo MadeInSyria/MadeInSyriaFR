@@ -26,5 +26,6 @@ module MadeInSyriaFR
     # config.i18n.default_locale = :de
     I18n.enforce_available_locales = true
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+    config.action_view.sanitized_allowed_tags = 'table', 'tr', 'td'
   end
 end

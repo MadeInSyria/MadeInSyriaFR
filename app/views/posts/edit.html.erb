@@ -10,9 +10,18 @@
     <%= f.label :title %>
     <%= f.text_field :title , class: 'form-control'%>
 
+    <%= f.label :excerpt %>
+    <%= f.text_area :excerpt, :rows => 3, :cols => 80 %>
+
+    <%= f.label :illustration %>
+    <%= f.file_field :illustration, class: 'form-control' %>
+
     <%= f.label :content %>
     <%= f.text_area :content , class: 'form-control tinymce', :rows => 20, :cols => 80 %>
     <%= tinymce :content_css => asset_path('custom.css') %>
+
+    <% categories_array = Category.all.map { |category| [category.name, category.id] } %>
+    <%= f.select :category_ids, options_for_select(categories_array), {class: 'form-control'}, { :multiple => true } %>
 
     <%= f.submit "Post", class: "btn btn-large btn-primary" %>
   <% end %>

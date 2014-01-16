@@ -18,7 +18,7 @@ describe "User pages" do
 
       it { should have_selector('div.pagination') }
       User.paginate(page: 1).each do |user|
-        expect(:page).to have_selector('li', text: user.name)
+        it { expect(:page).to have_selector('li', text: user.name) }
       end
     end
 

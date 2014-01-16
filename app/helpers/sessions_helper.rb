@@ -1,4 +1,4 @@
-module SessionsHelper
+  module SessionsHelper
    def sign_in(user)
     remember_token = User.new_remember_token
     cookies.permanent[:remember_token] = remember_token
@@ -14,13 +14,6 @@ module SessionsHelper
     unless signed_in?
       store_location
       redirect_to signin_url, notice: "Please sign in."
-    end
-  end
-
-  def authorized_user
-    @user = User.find(params[:id])
-    if !current_user?(@user) && !current_user.admin?
-      redirect_to(root_url)
     end
   end
 
