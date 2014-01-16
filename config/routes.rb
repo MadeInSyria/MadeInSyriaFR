@@ -2,7 +2,6 @@ MadeInSyriaFR::Application.routes.draw do
   #Static pages
   root  'posts#index'
   match '/about',   to: 'static_pages#about',   via: 'get'
-  match '/contact', to: 'static_pages#contact', via: 'get'
 
   #User related pages
   resources :users
@@ -21,6 +20,10 @@ MadeInSyriaFR::Application.routes.draw do
   #Categories
   resources :categories
   match '/newcategory', to: 'categories#new', via: 'get'
+
+  #Contact Form
+  resources :contacts, only: [:new, :create]
+  match '/contact', to: 'contacts#new', via: 'get'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
