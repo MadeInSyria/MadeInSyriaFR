@@ -1,4 +1,10 @@
-<li><h1 class="title"><%= link_to post.title, post %></h1>
+<div class="page-header">
+  <h1><%= post.title %></h1> in 
+  <% post.categories.each do |c| %>
+    <%= link_to c.name, c %>, 
+  <% end %>
+</div>
+<li>
   <p>
     <%= image_tag post.illustration.url(:thumb), class: 'thumb' %>
     <%= sanitize post.content %>
