@@ -5,7 +5,7 @@ describe "Category pages" do
   subject { page }
 
   let(:admin) { FactoryGirl.create(:admin) }
-  before { sign_in 1admin }
+  before { sign_in admin }
   after(:all) { User.delete_all }
 
   describe "category creation" do
