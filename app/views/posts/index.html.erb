@@ -26,7 +26,7 @@
       <p>
         <%= image_tag post.illustration.url(:thumb), class: 'thumb' %>
         <%= sanitize post.excerpt %>
-        <%= link_to "--> Read More", post %>
+        <br /><%= link_to "--> Read More", post %>
       </p>
       <span class="timestamp">
         Posted <%= time_ago_in_words(post.created_at) %> ago by <%= link_to post.user.name, post.user %>. <% if signed_in? && current_user.admin? %>
