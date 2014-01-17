@@ -7,3 +7,11 @@ theme_advanced_buttons3_add:
 plugins:
   - table
   - fullscreen
+  - link
+  - image
+  - code
+  - example
+  - lists
+  - spellchecker
+  - textcolor
+  - wordcount
