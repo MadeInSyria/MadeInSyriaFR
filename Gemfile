@@ -4,6 +4,10 @@ ruby '2.0.0'
 
 gem 'rails', '4.0.2'
 
+group :production do
+  gem 'thin'
+end
+
 group :development, :test do
   gem 'rspec-rails', '2.13.1'
   gem 'guard-rspec', '2.5.0'
@@ -31,6 +35,7 @@ gem 'will_paginate-bootstrap', '1.0.0'
 gem 'tinymce-rails'
 gem "paperclip", "~> 3.0"
 gem "nokogiri", "~> 1.6.1"
+gem 'rb-readline'
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false

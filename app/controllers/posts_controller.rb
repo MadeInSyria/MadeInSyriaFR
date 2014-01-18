@@ -56,6 +56,10 @@ class PostsController < ApplicationController
     @posts = Post.paginate(page: params[:page])
   end
 
+  def feed
+    @posts = Post.all
+  end
+
   private
     def post_params
       params.require(:post).permit(:title, :content, :illustration, {:category_ids => []}, :excerpt)

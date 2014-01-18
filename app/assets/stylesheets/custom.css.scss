@@ -1,4 +1,4 @@
-@import "bootstrap";
+//@import "bootstrap";
 
 /* mixins, variables, etc. */
 
@@ -307,4 +307,14 @@ have a fixed width and height (but it's not required).
 
 .category {
   font-size: 1.8em;
+} 
+
+.col-md-1 {
+  width: 200px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
 }

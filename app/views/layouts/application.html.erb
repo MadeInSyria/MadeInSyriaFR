@@ -5,6 +5,7 @@
     <%= stylesheet_link_tag "application", media: "all",
                                            "data-turbolinks-track" => true %>
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
     <%= csrf_meta_tags %>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -20,14 +21,29 @@
   <body>
     <%= render 'layouts/header' %>
     <div class="container">
-      <% flash.each do |key, value| %>
-        <div class="<%= flash_class(key) %>">
-              <%= value %>
+      <div class="row">
+        <div class="col-md-9">
+          <% flash.each do |key, value| %>
+            <div class="<%= flash_class(key) %>">
+                  <%= value %>
+            </div>
+          <% end %>
+          <%= yield %>
+          <%= render 'layouts/footer' %>
+          <%= debug(params) if Rails.env.development? %>
         </div>
-      <% end %>
-      <%= yield %>
-      <%= render 'layouts/footer' %>
-      <%= debug(params) if Rails.env.development? %>
+        <div class="col-md-1">
+          <h3>Categories</h3>
+          <ul>
+            <% Category.all.each do |category| %>
+            <li><%= link_to category.name, category %> (<%= category.posts.count %>)</li>
+            <% end %>
+          </ul>
+          <br />
+          <h3>Follow me !</h3>
+          <a href="https://facebook.com/MadeInSyria"><%= image_tag "facebook.png" %></a><a href="http://www.linkedin.com/in/alaoufomar/en"><%= image_tag "linkedin.png" %></a><a href="https://twitter.com/MadeInSyria"><%= image_tag "twitter.png" %></a><%= link_to image_tag("rss.png"), feed_path %>
+        </div>
+      </div>
     </div>
   </body>
 </html>
