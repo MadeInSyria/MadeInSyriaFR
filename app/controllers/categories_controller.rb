@@ -48,4 +48,10 @@ class CategoriesController < ApplicationController
     def category_params
       params.require(:category).permit(:name)
     end
+
+    def authorized_user
+      if !current_user.admin?
+        redirect_to(root_url)
+      end
+    end
 end
