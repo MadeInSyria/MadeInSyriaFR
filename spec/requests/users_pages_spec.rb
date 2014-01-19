@@ -11,17 +11,6 @@ describe "User pages" do
       visit users_path
     end
 
-    describe "pagination" do
-
-      before(:all) { 30.times { FactoryGirl.create(:user) } }
-      after(:all)  { User.delete_all }
-
-      it { should have_selector('div.pagination') }
-      User.paginate(page: 1).each do |user|
-        it { expect(:page).to have_selector('li', text: user.name) }
-      end
-    end
-
   describe "delete links" do
     before(:all) { 30.times { FactoryGirl.create(:user) } }
     after(:all)  { User.delete_all }

@@ -1,8 +1,14 @@
 <div class="page-header">
   <h1><%= post.title %></h1> in 
   <% post.categories.each do |c| %>
-    <%= link_to c.name, c %>, 
+    <%= link_to c.name, c %>
   <% end %>
+  <div class="social-likes">
+    <div class="facebook" title="Share link on Facebook">Facebook</div>
+    <div class="twitter" title="Share link on Twitter">Twitter</div>
+    <div class="plusone" title="Share link on Google+">Google+</div>
+    <div class="pinterest" title="Share image on Pinterest" data-media="">Pinterest</div>
+  </div>
 </div>
 <li>
   <p>

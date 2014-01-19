@@ -11,4 +11,5 @@
  *= require_self
  *= require yeti.css.scss
  *= require custom.css.scss
+ *= require social.css
  */

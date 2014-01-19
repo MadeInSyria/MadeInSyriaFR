@@ -5,8 +5,8 @@ describe "StaticPages" do
   describe "Home page" do
     before { visit root_path }
 
-    it "should have the content 'Home'" do
-      expect(page).to have_content('Home')
+    it "should have the content 'MADEINSYRIA.FR'" do
+      expect(page).to have_content('MADEINSYRIA.FR')
     end
 
     it "should have the right title" do
@@ -40,6 +40,5 @@ describe "StaticPages" do
     it "should have the right title" do
       expect(page).to have_title("MadeInSyria.fr | Contact me")
     end
-
   end
 end

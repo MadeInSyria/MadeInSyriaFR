@@ -31,7 +31,7 @@ describe "Category pages" do
     end
   end
 
-   describe "show categorys" do
+   describe "show categories" do
      before(:all) do
        30.times { FactoryGirl.create(:category) } 
        visit categories_path 
