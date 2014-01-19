@@ -16,7 +16,7 @@
     <%= f.label :illustration %>
     <%= f.file_field :illustration, class: 'form-control' %><br />
 
-      <%= link_to "Upload an image", new_medium_path, :target => '_blank' %><br /><br />
+    <%= link_to "Upload an image", new_medium_path, :target => '_blank' %> <%= link_to "Use an image", media_path, :target => '_blank' %><br /><br />
 
     <%= f.label :content %>
     <%= f.text_area :content , class: 'form-control tinymce', :rows => 20, :cols => 80 %>
