@@ -28,6 +28,9 @@ MadeInSyriaFR::Application.routes.draw do
   #Rss Feed
   match '/feed', to: 'posts#feed', :format => 'rss', via: 'get'
 
+  #Image gallery
+  resources :media
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

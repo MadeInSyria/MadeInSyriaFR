@@ -1,0 +1,10 @@
+<% provide(:title, "Media #{@media.name}") %>
+<div class="page-header">
+  <h1><%= @media.name %></h1>
+</div>
+<span class="media"><%= image_tag @media.image.url(:medium) %></span><br />
+<%= link_to "Edit", edit_medium_path(@media) %>
+| <%= link_to "Delete", @media, method: :delete, data: { confirm: "You sure?" } %> <br />
+Thumb : <%= request.protocol + request.host %><%= @media.image.url(:thumb) %><br />
+Medium : <%= request.protocol + request.host %><%= @media.image.url(:medium) %><br />
+Original : <%= request.protocol + request.host %><%= @media.image.url %><br />

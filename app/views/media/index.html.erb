@@ -1,0 +1,19 @@
+<% provide(:title, 'Media') %>
+<div class="page-header">
+  <h1>Media</h1>
+</div>
+<h2><%= link_to "Create media", new_medium_path %></h2>
+<ul class="media">
+  <% @media.each do |m| %>
+    <li>
+      <span class="media"><h1><%= link_to m.name, m %></h1><br /><%= image_tag m.image.url(:medium) %></span><br />
+      <%= link_to "Edit", edit_medium_path(m) %>
+      | <%= link_to "Delete", m, method: :delete, data: { confirm: "You sure?" } %> <br />
+      Thumb : <%= request.protocol + request.host %><%= m.image.url(:thumb) %><br />
+      Medium : <%= request.protocol + request.host %><%= m.image.url(:medium) %><br />
+      Original : <%= request.protocol + request.host %><%= m.image.url %><br />
+    </li> 
+  <% end%>
+</ul>
+
+<%= will_paginate @media, renderer: BootstrapPagination::Rails %>
