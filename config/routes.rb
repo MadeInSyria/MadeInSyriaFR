@@ -16,6 +16,7 @@ MadeInSyriaFR::Application.routes.draw do
   resources :posts
   match '/newpost',     to: 'posts#new',    via: 'get'
   match '/admin/posts', to: 'posts#admin',  via: 'get'
+  match 'posts/:name',  to: 'post#show',    via: 'get'
 
   #Categories
   resources :categories

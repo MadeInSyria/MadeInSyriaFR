@@ -6,7 +6,7 @@ class UsersController < ApplicationController
 
   #Display user
   def show
-    @user = User.find(params[:id])
+    @user = User.friendly.find(params[:id])
     @posts = @user.posts.paginate(page: params[:page])
   end
 
@@ -33,11 +33,11 @@ class UsersController < ApplicationController
 
   # Update user
   def edit
-    @user = User.find(params[:id])
+    @user = User.friendly.find(params[:id])
   end
 
   def update
-    @user = User.find(params[:id])
+    @user = User.friendly.find(params[:id])
     if @user.update_attributes(user_params)
       flash[:success] = "Profile updated"
       redirect_to @user
@@ -48,7 +48,7 @@ class UsersController < ApplicationController
 
   #Delete a user
   def destroy
-    User.find(params[:id]).destroy
+    User.friendly.find(params[:id]).destroy
     flash[:success] = "User deleted."
     redirect_to users_url
   end
@@ -60,7 +60,7 @@ class UsersController < ApplicationController
     end
 
     def authorized_user
-      @user = User.find(params[:id])
+      @user = User.friendly.find(params[:id])
       if !current_user?(@user) && !current_user.admin?
         redirect_to(root_url)
       end

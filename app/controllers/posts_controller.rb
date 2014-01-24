@@ -4,11 +4,11 @@ class PostsController < ApplicationController
 
   def index
     @posts = Post.paginate(page: params[:page], :per_page => 5)
-    @featured = Category.find_by(name: "featured").posts.find(:all, :order => "id desc", :limit => 3).reverse
+    @featured = Category.find_by(name: "featured").posts.friendly.find(:all, :order => "id desc", :limit => 3).reverse
   end
 
   def show
-    @post = Post.find(params[:id])
+    @post = Post.friendly.find(params[:id])
   end
 
   def new
@@ -30,14 +30,14 @@ class PostsController < ApplicationController
   end
 
   def edit
-    @post = Post.find(params[:id])
+    @post = Post.friendly.find(params[:id])
   end
 
   def update
     if params[:post][:excerpt].empty?
       params[:post][:excerpt] = build_excerpt(params[:post][:content])
     end
-    @post = Post.find(params[:id])
+    @post = Post.friendly.find(params[:id])
     if @post.update_attributes(post_params)
       flash[:success] = "Post updated"
       redirect_to @post
@@ -47,7 +47,7 @@ class PostsController < ApplicationController
   end
 
   def destroy
-    Post.find(params[:id]).destroy
+    Post.friendly.find(params[:id]).destroy
     flash[:success] = "Post deleted."
     redirect_to posts_url
   end
@@ -66,7 +66,7 @@ class PostsController < ApplicationController
     end
 
   def authorized_user
-    @post = Post.find(params[:id]).user_id
+    @post = Post.friendly.find(params[:id]).user_id
     if !current_user?(@post) && !current_user.admin?
       redirect_to(root_url)
     end

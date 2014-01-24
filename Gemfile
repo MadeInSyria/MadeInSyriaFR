@@ -36,6 +36,7 @@ gem 'tinymce-rails'
 gem "paperclip", "~> 3.0"
 gem "nokogiri", "~> 1.6.1"
 gem 'rb-readline'
+gem "friendly_id", "~> 5.0.2"
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false
