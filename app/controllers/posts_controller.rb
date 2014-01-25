@@ -4,7 +4,7 @@ class PostsController < ApplicationController
 
   def index
     @posts = Post.paginate(page: params[:page], :per_page => 5)
-    @featured = Category.find_by(name: "featured").posts.friendly.find(:all, :order => "id desc", :limit => 3).reverse
+    @featured = Category.find_by(name: "featured").posts.friendly.find(:all, :order => "created_at DESC", :limit => 3)
   end
 
   def show
