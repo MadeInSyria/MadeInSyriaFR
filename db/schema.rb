@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140124214454) do
+ActiveRecord::Schema.define(version: 20140125063827) do
 
   create_table "categories", force: true do |t|
     t.string   "name"
@@ -49,6 +49,7 @@ ActiveRecord::Schema.define(version: 20140124214454) do
     t.datetime "illustration_updated_at"
     t.text     "excerpt"
     t.string   "slug"
+    t.boolean  "published",                 default: false
   end
 
   add_index "posts", ["slug"], name: "index_posts_on_slug", unique: true, using: :btree

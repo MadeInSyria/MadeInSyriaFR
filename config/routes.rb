@@ -14,9 +14,9 @@ MadeInSyriaFR::Application.routes.draw do
 
   #Blogposts
   resources :posts
-  match '/newpost',     to: 'posts#new',    via: 'get'
-  match '/admin/posts', to: 'posts#admin',  via: 'get'
-  match 'posts/:name',  to: 'post#show',    via: 'get'
+  match '/newpost',     to: 'posts#new',      via: 'get'
+  match '/admin/posts', to: 'posts#admin',    via: 'get'
+  match '/preview/:id', to: 'posts#preview',  via: 'get', as: :preview
 
   #Categories
   resources :categories

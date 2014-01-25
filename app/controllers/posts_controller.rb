@@ -1,13 +1,17 @@
 class PostsController < ApplicationController
   before_action :signed_in_user, only: [:create, :destroy, :edit]
-  before_action :authorized_user, only: [:destroy, :edit]
+  before_action :authorized_user, only: [:destroy, :edit, :preview]
 
   def index
-    @posts = Post.paginate(page: params[:page], :per_page => 5)
-    @featured = Category.find_by(name: "featured").posts.friendly.find(:all, :order => "created_at DESC", :limit => 3)
+    @posts = Post.where(:published => true).paginate(page: params[:page], :per_page => 5)
+    @featured = Category.find_by(name: "featured").posts.friendly.where(published: true).find(:all, :limit => 3)
   end
 
   def show
+    @post = Post.friendly.where(published: true).find(params[:id])
+  end
+
+  def preview
     @post = Post.friendly.find(params[:id])
   end
 
@@ -62,7 +66,7 @@ class PostsController < ApplicationController
 
   private
     def post_params
-      params.require(:post).permit(:title, :content, :illustration, {:category_ids => []}, :excerpt)
+      params.require(:post).permit(:title, :content, :illustration, {:category_ids => []}, :excerpt, :published)
     end
 
   def authorized_user
