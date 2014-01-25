@@ -17,4 +17,12 @@ module ApplicationHelper
         when :alert then "alert alert-danger"
     end
   end
+
+  def meta_description(desc)
+    if !desc.empty?
+      return desc
+    else
+      return "MadeInSyria is blog about tech, but not only !"
+    end
+  end
 end
