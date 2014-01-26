@@ -17,3 +17,4 @@ plugins:
   - wordcount
 style_formats:
   - {title : 'Fancybox', selector : 'a', classes : 'fancybox'}
+  - {title : 'Table', selector : 'table', classes : 'table table-hover'}

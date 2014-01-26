@@ -6,7 +6,22 @@
 <%= will_paginate @users, renderer: BootstrapPagination::Rails %>
 
 <ul class="users">
-      <%= render @users %>
+      
 </ul>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Pic</th>
+      <th>Name</th>
+      <% if current_user.admin? %>
+      <th>Actions</th>
+      <% end %>
+    </tr>
+  </thead>
+  <tbody>
+    <%= render @users %>
+  </tbody>
+</table>
 
 <%= will_paginate @users, renderer: BootstrapPagination::Rails %>

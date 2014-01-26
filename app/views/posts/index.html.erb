@@ -4,9 +4,9 @@
       <ul>
         <% @featured.each do |f| %>
           <li>
-            <%= image_tag f.illustration.url(:thumb), class: 'thumb' %>
             <div class="excerpt">
-                <h1><%= link_to f.title, f %></h1>
+                <%= image_tag f.illustration.url(:thumb), class: 'thumb' %>
+                <h1><%= link_to f.title, f %></h1><br />
                 <p><%= sanitize f.excerpt %></p>
             <div>
           </li>
