@@ -15,3 +15,5 @@ plugins:
   - spellchecker
   - textcolor
   - wordcount
+style_formats:
+  - {title : 'Fancybox', selector : 'a', classes : 'fancybox'}

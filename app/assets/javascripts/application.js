@@ -15,4 +15,6 @@
 //= require tinymce-jquery
 //= require turbolinks
 //= require bootstrap
+//= require fancybox
+//= require ga.js
 //= require_tree .

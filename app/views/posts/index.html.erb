@@ -24,7 +24,7 @@
     <% @posts.each do |post| %>
     <li><h1 class="title"><%= link_to post.title, post %></h1>
       <p>
-        <%= image_tag post.illustration.url(:thumb), class: 'thumb' %>
+        <%= link_to image_tag(post.illustration.url(:thumb)), post, class: 'thumb' %>
         <%= sanitize post.excerpt %>
         <br /><%= link_to "--> Read More", post %>
       </p>
@@ -36,44 +36,4 @@
     </li>
     <% end %>
 </ul>
-
-<script type="text/javascript">
-(function($) {
-    $(function() {
-        $('.jcarousel').jcarousel();
-
-        $('.jcarousel-control-prev')
-            .on('jcarouselcontrol:active', function() {
-                $(this).removeClass('inactive');
-            })
-            .on('jcarouselcontrol:inactive', function() {
-                $(this).addClass('inactive');
-            })
-            .jcarouselControl({
-                target: '-=1'
-            });
-
-        $('.jcarousel-control-next')
-            .on('jcarouselcontrol:active', function() {
-                $(this).removeClass('inactive');
-            })
-            .on('jcarouselcontrol:inactive', function() {
-                $(this).addClass('inactive');
-            })
-            .jcarouselControl({
-                target: '+=1'
-            });
-
-        $('.jcarousel-pagination')
-            .on('jcarouselpagination:active', 'a', function() {
-                $(this).addClass('active');
-            })
-            .on('jcarouselpagination:inactive', 'a', function() {
-                $(this).removeClass('active');
-            })
-            .jcarouselPagination();
-    });
-})(jQuery);
-</script>
-
 <%= will_paginate @posts, renderer: BootstrapPagination::Rails %>

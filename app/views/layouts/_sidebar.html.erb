@@ -1,0 +1,16 @@
+<div class="col-md-2">
+  <h3>Categories</h3>
+  <ul>
+    <% Category.all.each do |category| %>
+    <li><%= link_to category.name, category %> (<%= category.posts.count %>)</li>
+    <% end %>
+  </ul>
+  <h3>Follow me !</h3>
+  <a href="https://facebook.com/MadeInSyria"><%= image_tag "facebook.png", size: "64"%></a><a href="http://www.linkedin.com/in/alaoufomar/en"><%= image_tag "linkedin.png" , size: "64"%></a><a href="https://twitter.com/MadeInSyria"><%= image_tag "twitter.png", size: "64" %></a><%= link_to image_tag("rss.png", size: "64"), feed_path %>
+  <h3>Links</h3>
+  <ul>
+    <li><a href="http://notes.depad.fr/">Notes de Pad</a></li>
+    <li><a href="http://sanfrancisco.sylvainkalache.com/">Sylvain Kalache</a></li>
+    <li><a href="http://www.underthesidra.com/">Under the Sidra</a></li>
+  </ul>
+</div>
