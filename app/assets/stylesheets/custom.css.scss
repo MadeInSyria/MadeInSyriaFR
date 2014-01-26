@@ -297,6 +297,9 @@ have a fixed width and height (but it's not required).
 
 .jcarousel li h1 {
   text-align: left;
+  height: 200px;
+  margin: 0;
+  padding: 0; 
 }
 
 .jcarousel li p {
