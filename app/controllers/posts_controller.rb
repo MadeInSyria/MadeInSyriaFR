@@ -61,7 +61,7 @@ class PostsController < ApplicationController
   end
 
   def feed
-    @posts = Post.all
+    @posts = Post.find_by(published: true)
   end
 
   private
