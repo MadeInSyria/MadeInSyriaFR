@@ -18,3 +18,7 @@ plugins:
 style_formats:
   - {title : 'Fancybox', selector : 'a', classes : 'fancybox'}
   - {title : 'Table', selector : 'table', classes : 'table table-hover'}
+  - {title : 'Center image', selector : 'img', styles: {margin-left: 'auto', margin-right: 'auto'}}
+  - {title : 'Center iframe', selector : 'iframe', styles: {margin-left: 'auto', margin-right: 'auto'}}
+extended_valid_elements : 
+  - "iframe[src|width|height|name|align]"
