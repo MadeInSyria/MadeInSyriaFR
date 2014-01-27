@@ -19,6 +19,9 @@
     <%= f.label :password_confirmation, "Confirm Password" %>
     <%= f.password_field :password_confirmation, class: 'form-control' %>
 
+    <%= f.label :about %>
+    <%= f.text_area :about, class: 'form-control', :rows => 3, :cols => 80 %>
+
     <%= f.submit "Save changes", class: "btn btn-large btn-primary" %>
   <% end %>
   <p>

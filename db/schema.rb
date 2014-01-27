@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140125063827) do
+ActiveRecord::Schema.define(version: 20140126234554) do
 
   create_table "categories", force: true do |t|
     t.string   "name"
@@ -64,6 +64,7 @@ ActiveRecord::Schema.define(version: 20140125063827) do
     t.string   "remember_token"
     t.boolean  "admin",           default: false
     t.string   "slug"
+    t.text     "about"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree

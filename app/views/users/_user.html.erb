@@ -4,6 +4,7 @@
     <%= gravatar_for user %>
   </td>
   <td><%= link_to user.name, user %></td>
+  <td><%= user.about %></td>
   <% if current_user.admin? && !current_user?(user) %>
   <td><%= link_to "delete", user, method: :delete, data: { confirm: "You sure?" } %></td>
   <% elsif current_user.admin? %>

@@ -20,7 +20,15 @@
     Posted <%= time_ago_in_words(post.created_at) %> ago by <%= link_to post.user.name, post.user %>. <% if signed_in? && current_user.admin? %>
     | <%= link_to "Delete", post, method: :delete, data: { confirm: "You sure?" } %>
     | <%= link_to "Edit", edit_post_path(post.id) %> <% end %>
-  </span>
+  </span><br /><br />
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">About the author</h3>
+    </div>
+    <div class="panel-body">
+      <%= gravatar_for post.user %> <%= post.user.about %>
+    </div>
+  </div>
   <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
