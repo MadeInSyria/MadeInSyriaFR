@@ -12,9 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require tinymce-jquery
 //= require turbolinks
 //= require bootstrap
 //= require fancybox
 //= require ga.js
+//= require ckeditor-jquery
 //= require_tree .

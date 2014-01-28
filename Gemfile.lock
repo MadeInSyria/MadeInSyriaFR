@@ -41,6 +41,8 @@ GEM
       timers (~> 1.1.0)
     childprocess (0.3.9)
       ffi (~> 1.0, >= 1.0.11)
+    ckeditor_rails (4.3.1)
+      railties (>= 3.0)
     climate_control (0.0.3)
       activesupport (>= 3.0)
     cocaine (0.5.3)
@@ -212,6 +214,7 @@ DEPENDENCIES
   bcrypt-ruby (= 3.1.2)
   bootstrap-sass (= 3.0.3.0)
   capybara (= 2.1.0)
+  ckeditor_rails
   coffee-rails (= 4.0.1)
   factory_girl_rails (= 4.2.1)
   faker (= 1.1.2)

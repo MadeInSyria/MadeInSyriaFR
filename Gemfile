@@ -32,11 +32,11 @@ gem 'factory_girl_rails', '4.2.1'
 gem 'faker', '1.1.2'
 gem 'will_paginate', '3.0.4'
 gem 'will_paginate-bootstrap', '1.0.0'
-gem 'tinymce-rails'
 gem "paperclip", "~> 3.0"
 gem "nokogiri", "~> 1.6.1"
 gem 'rb-readline'
 gem "friendly_id", "~> 5.0.2"
+gem "ckeditor_rails"
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false

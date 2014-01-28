@@ -20,8 +20,11 @@
       <%= link_to "Upload an image", new_medium_path, :target => '_blank' %> <%= link_to "Use an image", media_path, :target => '_blank' %><br /><br />
 
       <%= f.label :content %>
-      <%= f.text_area :content , class: 'form-control tinymce', :rows => 20, :cols => 80 %>
-      <%= tinymce :content_css => asset_path('custom.css') %><br />
+      <%= f.text_area :content , class: 'form-control tinymce', :rows => 20, :cols => 80, :class => 'ckeditor' %>
+      
+      <script type="text/javascript">
+      $('.ckeditor').ckeditor({});
+      </script><br />
 
       <% categories_array = Category.all.map { |category| [category.name, category.id] } %>
       <%= f.select :category_ids, options_for_select(categories_array), {class: 'form-control'}, { :multiple => true } %>
