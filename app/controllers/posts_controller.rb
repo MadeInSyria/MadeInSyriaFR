@@ -61,7 +61,7 @@ class PostsController < ApplicationController
   end
 
   def feed
-    @posts = Post.find_by(published: true)
+    @posts = Post.friendly.where(published: true).find(:all)
   end
 
   private

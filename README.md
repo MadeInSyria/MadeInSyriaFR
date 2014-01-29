@@ -7,6 +7,8 @@ It is based on :
   - Ruby 2.0.0
   - Rails 4
 
+[![Code Climate](https://codeclimate.com/github/MadeInSyria/MadeInSyriaFR.png)](https://codeclimate.com/github/MadeInSyria/MadeInSyriaFR)
+
 It requieres a database supported by [ActiveRecord]
 
 Installation
