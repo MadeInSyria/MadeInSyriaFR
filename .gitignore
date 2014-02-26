@@ -1,3 +1,5 @@
+.secret
+.tag*
 .DS_Store
 /public/system
 /.bundle
