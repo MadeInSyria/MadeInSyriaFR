@@ -5,4 +5,5 @@
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 ga('create', 'UA-7696431-1', 'madeinsyria.fr');
+ga('require', 'displayfeatures');
 ga('send', 'pageview');
